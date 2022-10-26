@@ -1,0 +1,85 @@
+/*
+Practica reto1 fcc
+*/
+
+/* Así inserto una fuente llamandola desde una url */
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+* {
+  /* margin: 0px;
+   padding: 0px; */
+}
+
+body{
+    font-family: "Outfit";
+    background-color: rgba(253, 255, 155, 1);
+    background-image: url(img/mariposas.png);
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: 30%;
+    background-attachment: scroll; 
+}
+
+
+header{
+    border-radius: 200px;
+    padding: 5px;
+    text-align: center;
+    background-color:rgba(254, 219, 104, 1);
+    font-size: auto;
+}
+
+nav{
+   font-family:"Outfit";
+   font-size: 15px;
+   line-height: 40px;
+   letter-spacing: 5px;
+   text-align: center;
+}
+
+.imagenppl{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+section{
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.separador{
+    height: 45px;
+    background-color: rgba(254, 219, 104, 1);
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+    align-content: center;
+}
+
+article{
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h3{
+   margin-left: 3%
+}
+
+.main{
+    height: 50px;
+} 
+
+
+footer{
+    padding: 5px;
+    text-align: center;
+}
+
+
