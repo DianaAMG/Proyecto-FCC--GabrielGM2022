@@ -5,10 +5,6 @@ Practica reto1 fcc
 /* Así inserto una fuente llamandola desde una url */
 @import url(https://fonts.googleapis.com/css?family=Outfit);
 
-* {
-  /* margin: 0px;
-   padding: 0px; */
-}
 
 body{
     font-family: "Outfit";
