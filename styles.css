@@ -6,49 +6,55 @@ Practica reto1 fcc
 @import url(https://fonts.googleapis.com/css?family=Outfit);
 
 
-body{
+body {
     font-family: "Outfit";
     background-color: rgba(253, 255, 155, 1);
     background-image: url(img/mariposas.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 30%;
-    background-attachment: scroll; 
+    background-attachment: scroll;
 }
 
 
-header{
+header {
     border-radius: 200px;
     padding: 5px;
     text-align: center;
-    background-color:rgba(254, 219, 104, 1);
+    background-color: rgba(254, 219, 104, 1);
     font-size: auto;
 }
 
-.profesion{
-   font-family:"Outfit";
-   font-size: 15px;
-   line-height: 40px;
-   letter-spacing: 5px;
-   text-align: center;
+.profesion {
+    font-family: "Outfit";
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
-.imagenppl{
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+#image {
     border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
 
-section{
+#img-caption {
+    display: block;
+    text-align: center;
+}
+
+section {
     display: block;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.separador{
+.separador {
     height: 45px;
     background-color: rgba(254, 219, 104, 1);
     border-radius: 100px;
@@ -58,19 +64,30 @@ section{
     align-content: center;
 }
 
-article{
+article {
     display: block;
     margin-left: 60px;
     margin-right: 60px;
 }
 
-h3{
-   margin-left: 3%
+h3 {
+    margin-left: 3%
 }
 
-footer{
+footer {
     padding: 5px;
     text-align: center;
 }
 
+.more-detail {
+    display: block;
+    font-size: 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 
+}
